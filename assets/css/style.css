@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+}
+ul li {
+  list-style: none;
+  color: white;
+  margin-left: 20px;
+  text-decoration: underline;
+}
+.container {
+  width: 1400px;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: auto;
+}
+header {
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  position: sticky;
+  top: 0;
+  width: 100%;
+}
+img {
+  height: 50px;
+}
+ul {
+  display: flex;
+  margin-right: 10px;
+}
+header img {
+  margin-left: 10px;
+}
+.our-mission {
+  background-image: url(../figures/img-mission-background.jpg);
+  filter: brightness(70%);
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  margin-bottom: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+}
+.our-mission article {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center;
+  width: 1200px;
+  z-index: 3px;
+}
+.Tea-of-the-month {
+  width: 1000px;
+  color: white;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.Tea-of-the-month .text {
+  line-height: 2;
+}
+.Tea-of-the-month .album {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.Tea-of-the-month img {
+  width: 300px;
+  height: 200px;
+  padding: 20px 10px 10px 10px;
+}
+
+.locations h2 {
+  color: white;
+}
+
+.locations .boxes {
+  background-image: url(../figures/img-locations-background.jpg);
+  height: 580px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.locations .boxes .sec1 {
+  font-size: 30px;
+}
+.locations .boxes .sec2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.locations article {
+  color: white;
+  width: 300px;
+  height: 250px;
+  margin-right: 40px;
+  line-height: 2.5;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.The-tea-cozy {
+  width: 1200px;
+  height: 200px;
+  color: white;
+  padding-top: 40px;
+  line-height: 2;
+}
+.The-tea-cozy article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer p {
+  color: white;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
